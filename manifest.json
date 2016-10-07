@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "gc_select_archived",
+    "version": "0.0.1",
+
+    "description": "In a geocaching bookmarks list, select all archived caches for easy deletion.",
+
+    "page_action": {
+	"default_title": "gc_select_archived"
+    },
+
+    "content_scripts": [
+	{
+	    "matches": [
+		"https://www.geocaching.com/bookmarks/view.aspx*",
+		"https://www.geocaching.com/bookmarks/bulk.aspx*"
+	    ],
+	    "js": ["main.js"]
+	}
+    ]
+}
