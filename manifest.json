@@ -1,9 +1,9 @@
 {
     "manifest_version": 2,
-    "name": "gc_select_archived",
+    "name": "Geocaching List Select Archived",
     "version": "0.0.1",
 
-    "description": "In a geocaching bookmarks list, select all archived caches for easy deletion.",
+    "description": "In a geocaching bookmarks list, select all the archived caches for easy deletion.",
 
     "page_action": {
 	"default_title": "gc_select_archived"
