@@ -18,11 +18,11 @@ function runSelect(event) {
 function init() {
   // Make a new button for our action.
   var newbutton = document.createElement('input');
-  newbutton.setAttribute('class', 'Button');
-  newbutton.setAttribute('type', 'submit');
-  newbutton.setAttribute('name', 'gc_select_all_archived');
-  newbutton.setAttribute('id', 'gc_select_all_archived');
-  newbutton.setAttribute('value', 'Select All Archived');
+  newbutton.className = 'Button';
+  newbutton.type = 'submit';
+  newbutton.name = 'gc_select_all_archived';
+  newbutton.id = 'gc_select_all_archived';
+  newbutton.value = 'Select All Archived';
 
   newbutton.addEventListener('click', runSelect);
 
