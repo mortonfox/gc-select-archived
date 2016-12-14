@@ -35,6 +35,8 @@ Clicking on this button will check the checkbox for any archived cache in the
 bookmarks list. Then you can click on the "Bulk Delete" button to get rid of
 those bookmarks. Easy!
 
+![Select All Archived button](https://mortonfox.github.io/gc-select-archived/select_all_archived_button.png)
+
 Note: If your bookmarks list is long enough to span multiple pages, you'll need
 to either increase the number of bookmarks per page or you'll need to "select
 all archived" and bulk delete on each page. The "select all archived" button
